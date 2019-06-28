@@ -346,9 +346,6 @@ vector<uint8_t> AES_encrypt(vector<uint8_t> message, vector<uint8_t> key) {
 
 
 int main(int argc, char** args) {   
-	freopen("AES.in","rt",stdin);
-	freopen("AES.out","wt",stdout);
-
 	vector<uint8_t> message; 
 	for(int i = 0; i < 16; i++) {
 		string s;

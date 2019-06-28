@@ -141,13 +141,6 @@ float printTable(vector<map<char, int>> table) {
 }
 
 int main(int argc, char** argv) {   
-	//Change output streams to files
-    freopen("vig.in","rt",stdin);
-    //We use stdout for debugging
-	freopen("vig.out","wt",stdout);
-	//We can use stderr stream for our answer output file
-	freopen("vig.err","wt",stderr);
-
 	//Number of lines
 	int L;
 	stringstream ss;

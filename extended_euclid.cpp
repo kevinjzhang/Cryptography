@@ -50,8 +50,6 @@ int inv(int a, int mod) {
 }
 
 int main(int argc, char** args) {   
-	freopen("euclid.in","rt",stdin);
-	freopen("euclid.out","wt",stdout);
 	//Number of cases
 	int T;
 	cin >> T;
